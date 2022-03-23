@@ -3,7 +3,7 @@ import './FormDenuncia.css'
 
 
 
-export default () =>{
+const FormDenuncia = () =>{
 
   return(
     <section className="container form-denuncia">
@@ -44,3 +44,5 @@ export default () =>{
     </section>
   )
 }
+
+export default FormDenuncia;
