@@ -1,5 +1,5 @@
 # Link para o site do projeto:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5e80b294-fec9-4320-b328-f38f257af39f/deploy-status)](https://app.netlify.com/sites/eblack/deploys)
+https://eblack.netlify.app/
 
 # Getting Started with Create React App
 
