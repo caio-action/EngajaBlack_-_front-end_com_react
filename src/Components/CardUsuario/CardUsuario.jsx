@@ -3,7 +3,7 @@ import './CardUsuario.css'
 
 
 
-export default () => {
+const CardUsuario = () => {
 
   return(
     <div>
@@ -98,7 +98,7 @@ export default () => {
                     <div className="modal-dialog" role="document">
                       <div className="modal-content">
                         <div className="modal-header">
-                          <h5 className="modal-title" id="exampleModalLabel">Cadastre-se ou <a href="#">Faça login</a></h5>
+                          <h5 className="modal-title" id="exampleModalLabel">Cadastre-se ou <a href="/">Faça login</a></h5>
                           <button type="button" className="close" data-dismiss="modal" aria-label="Fechar">
                             <span aria-hidden="true">&times;</span>
                           </button>
@@ -159,13 +159,13 @@ export default () => {
                             <div className="form-group">
                                 <span className="input-group-addon align-content-center">Funcionamento:</span>
                                 <div className="form-row">
-                                    <a className="dropdown-item" href="#">
+                                    <a className="dropdown-item" href="/">
                                         Das
                                         <div className="input-timerange input-group col-md-6" id="timepicker">
                                             <input type="time" className="input-sm form-control" name="start" />
                                         </div>
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a className="dropdown-item" href="/">
                                         Às
                                         <div className="input-timerange input-group col-md-6" id="timepicker">
                                             <input type="time" className="input-sm form-control" name="start" />
@@ -189,7 +189,7 @@ export default () => {
                     <div className="modal-dialog" role="document">
                       <div className="modal-content">
                         <div className="modal-header">
-                          <h5 className="modal-title">Cadastre-se ou <a href="#">Faça login</a></h5>
+                          <h5 className="modal-title">Cadastre-se ou <a href="/">Faça login</a></h5>
                           <button type="button" className="close" data-dismiss="modal" aria-label="Fechar">
                             <span aria-hidden="true">&times;</span>
                           </button>
@@ -250,13 +250,13 @@ export default () => {
                             <div className="form-group">
                                 <span className="input-group-addon align-content-center">Funcionamento:</span>
                                 <div className="form-row">
-                                    <a className="dropdown-item" href="#">
+                                    <a className="dropdown-item" href="/">
                                         Das
                                         <div className="input-timerange input-group col-md-6" id="timepicker">
                                             <input type="time" className="input-sm form-control" name="start" />
                                         </div>
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a className="dropdown-item" href="/">
                                         Às
                                         <div className="input-timerange input-group col-md-6" id="timepicker">
                                             <input type="time" className="input-sm form-control" name="start" />
@@ -279,3 +279,5 @@ export default () => {
     </div>
   );
 }
+
+export default CardUsuario

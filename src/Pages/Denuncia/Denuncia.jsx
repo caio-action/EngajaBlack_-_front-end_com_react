@@ -6,7 +6,7 @@ import logo from '../../assets/img/Engajablack_logo.png'
 import FormDenuncia from "../../Components/FormDenuncia/FormDenuncia";
 
 
-export default () => {
+const Denuncia = () => {
 
   return(
     <>
@@ -22,3 +22,5 @@ export default () => {
     </>
   );
 }
+
+export default Denuncia;

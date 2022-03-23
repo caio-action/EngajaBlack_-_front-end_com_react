@@ -12,7 +12,7 @@
   margin-bottom: 80px;
 }
 
-.denuncia a{
+.denuncia button{
   width: 80%;
   color: #343a40;
 }
@@ -22,7 +22,7 @@
 
     
 
-  .denuncia a {
+  .denuncia button {
       font-size: 14px;
   }
 
@@ -40,7 +40,7 @@
       font-size: 12px;
   }
 
-  .denuncia a {
+  .denuncia button {
       font-size: 12px;
   }
 

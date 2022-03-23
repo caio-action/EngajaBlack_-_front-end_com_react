@@ -6,7 +6,7 @@ import logo from "../../assets/img/Engajablack_logo.png";
 import BotaoDenuncia from "../../Components/BotaoDenuncia/BotaoDenuncia";
 
 
-export default () =>{
+const Contato = () =>{
 
   return(
     <>
@@ -39,3 +39,5 @@ export default () =>{
     
   );
 }
+
+export default Contato;

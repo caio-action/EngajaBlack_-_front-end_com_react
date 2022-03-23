@@ -6,7 +6,7 @@ import BotaoDenuncia from "../../Components/BotaoDenuncia/BotaoDenuncia";
 import logo from '../../assets/img/Engajablack_logo.png';
 
 
-export default (props) => {
+const SobreNos = (props) => {
 
   return(
     <>
@@ -46,3 +46,5 @@ export default (props) => {
     </>
   );
 }
+
+export default SobreNos;
