@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import logo from "../../assets/img/Engajablack_logo.png";
-import CardUsuario from "../../Components/CardUsuario/CardUsuario";
 import BotaoDenuncia from "../../Components/BotaoDenuncia/BotaoDenuncia";
 import Footer from "../../Components/Footer/Footer";
+import MainProduto from "../../Components/MainProduto/Main";
 
-function Home() {
+function Produtos() {
   return (
     <>
       <Navbar logo={logo} />
@@ -14,6 +14,9 @@ function Home() {
         <section className="text-center titulo mb-5">
           <h1>ENGAJABLACK</h1>
         </section>
+        <MainProduto>
+           
+        </MainProduto>
 
         
 
@@ -25,4 +28,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Produtos;
