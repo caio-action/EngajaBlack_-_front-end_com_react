@@ -7,7 +7,7 @@ import Denuncia from './Pages/Denuncia/Denuncia';
 import Home from './Pages/Home/Home';
 import SobreNos from './Pages/SobreNos/SobreNos';
 import Squad30 from './assets/img/squad30-removebg-preview.png';
-
+import Produtos from './Pages/Produtos/Produtos'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +17,7 @@ ReactDOM.render(
         <Route path="/denuncia" element={<Denuncia/>}></Route>
         <Route path="/contato" element={<Contato/>}></Route>
         <Route path="/sobreNos" element={<SobreNos fotoSquad={Squad30}/>}></Route>
+        <Route path= "/produto" element={<Produtos/>}></Route>
       </Routes>
     </Router>
   </React.StrictMode>,
