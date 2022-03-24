@@ -14,12 +14,8 @@ function Produtos() {
         <section className="text-center titulo mb-5">
           <h1>ENGAJABLACK</h1>
         </section>
-        <MainProduto>
-           
-        </MainProduto>
 
-        
-
+        <MainProduto></MainProduto>
         <BotaoDenuncia />
       </div>
 

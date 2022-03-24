@@ -1,26 +1,24 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Panel, PanelGroup } from "rsuite";
-import { Link } from "react-router-dom";
+import {  PanelGroup } from "rsuite";
 import CardProduto from "./CardProduto";
-
+import "./MainProduto.css"
 const Main = () => {
   return (
     <>
-      <main>
-        <div
-          style={{
-            display: "flex",
-            
-            paddingLeft: 10,
-          }}
+       <h2 >Pertinho de você ...</h2>
+     <section className="abc">
+        <div className="painel"
+        
         >
           <PanelGroup header="Sample Panel title" shaded>
-            <h2 class="text-white">Categorias</h2>
-            <div class="container">
+            <div class="category">
+            <h2 >Categorias</h2>
               <div class="row">
-                <div class="col-sm-3">
+                
                   <div class="left-sidebar">
-                    <div class="panel-group category-products" id="accordian">
+                    <div class="panel-group" id="accordian">
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <h4 class="panel-title">
@@ -335,19 +333,23 @@ const Main = () => {
                               </li>
                             </ul>
                           </div>
-                          
                         </div>
                       </div>
                     </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </PanelGroup>
-
-            <CardProduto></CardProduto>
-                  </div>
-      </main>
+        </div>
+         <section className="def">
+          <div className="container-flex">
+          <CardProduto></CardProduto>
+              
+          
+          </div>
+          </section>
+          </section>
     </>
   );
 };
