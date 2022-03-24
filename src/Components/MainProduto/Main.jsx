@@ -345,6 +345,7 @@ const Main = () => {
          <section className="def">
           <div className="container-flex">
           <CardProduto></CardProduto>
+          <CardProduto></CardProduto>
               
           
           </div>

@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../../assets/img/Engajablack_logo.png";
+import img from "../../assets/img/Engajablack_logo.png";
 
 const CardProduto = () => {
   return (
@@ -9,7 +9,7 @@ const CardProduto = () => {
     <div className="card">
       <div className="products">
         <div className="productinfo text-center">
-          <img id="logo" src={logo} alt="Logotipo" />
+          <img id="img" src={img} alt="Logotipo" />
           <h2>R$ 20,00</h2>
           <p>Produto Exemplo</p>
           <a href="#" className="btn btn-default add-to-cart">
@@ -21,7 +21,7 @@ const CardProduto = () => {
     <div className="card">
       <div className="products">
         <div className="productinfo text-center">
-          <img id="logo" src={logo} alt="Logotipo" />
+          <img id="img" src={img} alt="Logotipo" />
           <h2>R$ 20,00</h2>
           <p>Produto Exemplo</p>
           <a href="#" className="btn btn-default add-to-cart">
@@ -33,7 +33,7 @@ const CardProduto = () => {
     <div className="card">
       <div className="products">
         <div className="productinfo text-center">
-          <img id="logo" src={logo} alt="Logotipo" />
+          <img id="img" src={img} alt="Logotipo" />
           <h2>R$ 20,00</h2>
           <p>Produto Exemplo</p>
           <a href="#" className="btn btn-default add-to-cart">
@@ -45,7 +45,7 @@ const CardProduto = () => {
     <div className="card">
       <div className="products">
         <div className="productinfo text-center">
-          <img id="logo" src={logo} alt="Logotipo" />
+          <img id="img" src={img} alt="Logotipo" />
           <h2>R$ 20,00</h2>
           <p>Produto Exemplo</p>
           <a href="#" className="btn btn-default add-to-cart">
